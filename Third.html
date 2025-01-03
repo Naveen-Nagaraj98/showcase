@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRN web development</title>
+    <link rel="icon" type="image/png" href="Third assets/favicon.png" alt="favicon.png">
+    <link rel="stylesheet" href="Third.css">
+    <script src="https://kit.fontawesome.com/5ba52ad6af.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--This section contains both header and navigation bar aligned horizontally-->
+    <header>
+        <div class="logo">NRN</div>
+        <nav>
+            <ul class="navlinks">
+                <li><a href="home">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="projects">Projects</a></li>
+                <li><a href="blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--This is the hero section that provides brief introduction to the visitor-->
+        <section class="introduction">
+        <h1>Hi There!</h1>
+        <p>
+        "Hi there! I’m a budding front-end developer passionate about crafting beautiful, 
+        user-friendly websites. Here, you’ll find the projects I’ve built to hone my skills 
+        and a glimpse into my journey as I grow in HTML, CSS, and beyond. Thanks for stopping 
+        by and exploring my work!"
+        </p>
+        <button id="work" href="projects" alt="button">View my work</button>
+        </section>
+
+        <!--This section contains my detailed information along with my skills-->
+        <section class="personal_info">
+            <h1>About Me:</h1>
+            <img src="Third assets/docpic.jpg" alt="doctor image.jpg">
+                <p>I’m a self-taught front-end developer in the early stages of my journey, working 
+                steadily to transform my passion for the web into tangible, engaging online experiences. 
+                Ever since I discovered the power of HTML and CSS, I’ve been fascinated by the process of 
+                taking a blank canvas and turning it into a user-friendly interface that anyone can explore. 
+                My interest doesn’t stop at just coding, though; I’m equally excited about understanding the 
+                principles of good design, accessibility, and performance. Each new project I tackle is a chance to 
+                improve my craft, whether it’s experimenting with responsive layouts, refining my color choices, or 
+                adding subtle animations to enhance the user experience.</p><br>
+                <p>My primary goal is to build websites that feel both aesthetically pleasing and logically structured. 
+                I believe that attention to detail, consistency, and user-centric thinking form the foundation of great 
+                front-end development. Beyond the code, I’m always exploring tools and reading articles to stay current 
+                in this fast-paced field. From diving into new CSS techniques to learning how to incorporate emerging best 
+                practices, I’m committed to continuous growth. This journey isn’t just about improving my technical 
+                skills—it’s about embracing creativity, collaboration, and curiosity in everything I do.</p>
+            <br><br>
+            <ul>
+                <h3>Core skills:</h3>
+                <li><i class="fa-brands fa-html5"></i>Html</li>
+                <li><i class="fa-brands fa-css"></i>CSS</li>
+                <li><i class="fa-brands fa-js"></i>Java script</li>
+            </ul>
+        </section>
+
+        <!--This section provides info on projects that iam currently working on-->
+        <section class="projects">
+            <h1>My Projects:</h1>
+            <div class="container">
+                <div class="card" id="card1">
+                    <h4>1. Portfolio Landing Page</h4>
+                    <img src="Third assets/1.jpg" alt="portfolio landing page image.jpg">
+                    <p>A sleek and responsive homepage showcasing my profile, skills, and past work. Designed to reflect 
+                        my personal brand, this project highlights clean layouts, subtle animations, 
+                        and an intuitive navigation experience.</p>
+                    <a href="project1"> Learn more</a>
+                </div>
+                <div class="card" id="card2">
+                    <h4>2. Responsive Restaurant Menu</h4>
+                    <img src="Third assets/2.jpg.jpg" alt="menu website image.jpg">
+                    <p>An interactive, mobile-friendly menu that organizes dishes and prices in an easy-to-scan format. 
+                        Featuring elegant typography, vibrant imagery, and a flexible grid system, it ensures customers can 
+                        effortlessly browse and choose their next meal.</p>
+                    <a href="project2"> Learn more</a>
+                </div>
+                <div class="card" id="card3">
+                    <h4>3. Minimalist Blog Template</h4>
+                    <img src="Third assets/3.png" alt="minimalist design image.png">
+                    <p>A simple, content-focused blog design where images and text shine through. By employing a clean layout, 
+                        neutral color palette, and ample white space, this project prioritizes readability and helps users dive 
+                        right into the posts they love.</p>
+                    <a href="project3"> Learn more</a>
+                </div>
+            </div>
+        </section>
+
+        <!--This section contains a form that collects information to the backend regarding the requirements of the visitor-->
+        <section class="reachout">
+            <h1>Contact Me:</h1>
+            <form>
+                <label for="Name">Name:</label>
+                <input type="text" id="Name">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="@gmail.com">
+                <br><br>
+                <label for="query">Query:</label>
+                <textarea id="query"></textarea>
+            </form>
+            <button id="submit">SUBMIT</button>
+        </section>
+        <section>
+            <div id="pagination">
+                <a href=""><</a>
+                <a href="" class="active">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                <a href="">></a>
+            </div>
+        </section>
+    </main>
+
+    <!--This is the footer section with social media links and copyright information-->
+    <footer>
+        &copy;Dr.Naveen Nagaraj all rights reserved 2024
+        <h4>Reach out to me:</h4>
+        <div class="icons">
+            <a href="https://youtube.com"><i class="fa-brands fa-youtube fa-3x"></i></a>
+            <a href="https://facebook.com"><i class="fa-brands fa-facebook fa-3x"></i></a>
+            <a href="https://instagram.com"><i class="fa-brands fa-instagram fa-3x"></i></a>
+            <a href="https://x.com"><i class="fa-brands fa-x-twitter fa-3x"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
